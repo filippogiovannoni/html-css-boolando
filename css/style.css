@@ -1,0 +1,62 @@
+/* Region Common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --boolando-white: #FFFFFF;
+    --boolando-orange: #FF6801;
+    --boolando-black: #1A1A1A;
+    --boolando-red: #FF0000;
+    --boolando-green: #008000;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Endregion Common */
+
+
+/* Region Utility */
+.d-flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 0.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--boolando-white);
+}
+
+/* Endregion Utility */
+
+/* Region Header */
+#site_header {
+    background-color: var(--boolando-orange);
+    padding: 1rem 0;
+}
+
+nav.container.d-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials a {
+    padding: 0 0.25rem;
+}
+
+/* Endregion Header */
