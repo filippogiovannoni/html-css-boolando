@@ -94,11 +94,11 @@ nav.container.d-flex {
     width: 100%;
 }
 
-.img-1, .img-2, .img-3, .img-4 {
+.img-1, .img-2, .img-3, .img-4, .img-5 {
     position: absolute;
 }
 
-.img-1b, .img-2b, .img-3b, .img-4b {
+.img-1b, .img-2b, .img-3b, .img-4b, .img-5b {
 position: absolute;
 }
 
@@ -122,6 +122,10 @@ position: absolute;
 }
 
 .img-4:hover {
+    opacity: 0;
+}
+
+.img-5:hover{
     opacity: 0;
 }
 
