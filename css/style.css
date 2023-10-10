@@ -42,12 +42,38 @@ a {
     color: var(--boolando-white);
 }
 
+.row {
+    display: flex;
+    padding-top: 6rem;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+    padding: 0 0.5rem;
+}
+
+.p-brand {
+    font-size: small;
+}
+
+.p-price {
+    color: var(--boolando-red);
+    font-weight:bold ;
+}
+
+.p-name {
+    font-weight: bold;
+}
+
 /* Endregion Utility */
 
 /* Region Header */
 #site_header {
     background-color: var(--boolando-orange);
     padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 nav.container.d-flex {
@@ -60,3 +86,77 @@ nav.container.d-flex {
 }
 
 /* Endregion Header */
+
+
+/* Region Main */
+
+.col-4 img {
+    width: 100%;
+}
+
+.img-1 {
+    position: absolute;
+}
+
+.img-1b {
+position: absolute;
+}
+
+.card-1 {
+    width: 368px;
+    height: 531px;
+    position: relative;
+}
+
+.img-1:hover {
+    opacity: 0;
+}
+
+.prod-info.d-flex {
+    flex-direction: column;
+    padding-top: 0.25rem;
+}
+
+.heart {
+    background-color: var(--boolando-white);
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 15px;
+    text-align: center;
+}
+
+.fa-solid.fa-heart {
+    padding: 10px;
+}
+
+.fa-solid.fa-heart:hover {
+    color: var(--boolando-red);
+}
+
+.discount {
+    background-color: var(--boolando-red);
+    color: var(--boolando-white);
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    padding: 0.2rem 0.1rem;
+}
+
+span.off {
+    font-size: 12px;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.green {
+    background-color: var(--boolando-green);
+    color: var(--boolando-white);
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: 20px;
+    padding: 0.35rem 0.4rem;
+    font-size: 12px;
+    font-weight: bold;
+}
