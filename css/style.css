@@ -94,11 +94,11 @@ nav.container.d-flex {
     width: 100%;
 }
 
-.img-1, .img-2, .img-3, .img-4, .img-5 {
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
     position: absolute;
 }
 
-.img-1b, .img-2b, .img-3b, .img-4b, .img-5b {
+.img-1b, .img-2b, .img-3b, .img-4b, .img-5b, .img-6b {
 position: absolute;
 }
 
@@ -126,6 +126,10 @@ position: absolute;
 }
 
 .img-5:hover{
+    opacity: 0;
+}
+
+.img-6:hover{
     opacity: 0;
 }
 
@@ -172,6 +176,17 @@ span.off {
     position: absolute;
     z-index: 1;
     left: 50px;
+    bottom: 20px;
+    padding: 0.35rem 0.4rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.green6 {
+    background-color: var(--boolando-green);
+    color: var(--boolando-white);
+    position: absolute;
+    z-index: 1;
     bottom: 20px;
     padding: 0.35rem 0.4rem;
     font-size: 12px;
