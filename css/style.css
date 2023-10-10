@@ -73,7 +73,7 @@ a {
     padding: 1rem 0;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav.container.d-flex {
@@ -94,21 +94,26 @@ nav.container.d-flex {
     width: 100%;
 }
 
-.img-1 {
+.img-1, .img-2 {
     position: absolute;
 }
 
-.img-1b {
+.img-1b, .img-2b {
 position: absolute;
 }
 
-.card-1 {
+[class^="card-"]
+{
     width: 368px;
     height: 531px;
     position: relative;
 }
 
 .img-1:hover {
+    opacity: 0;
+}
+
+.img-2:hover {
     opacity: 0;
 }
 
