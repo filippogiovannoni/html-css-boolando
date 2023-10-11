@@ -44,12 +44,27 @@ a {
 
 .row {
     display: flex;
+}
+
+.row-1 {
+    display: flex;
+    padding-top: 7rem;
+}
+
+.row-2 {
+    display: flex;
     padding-top: 3rem;
 }
+
 
 .col-4 {
     width: calc(100% / 12 * 4);
     padding: 0 0.5rem;
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+    padding: 2rem 0;
 }
 
 .p-brand {
@@ -58,7 +73,7 @@ a {
 
 .p-price {
     color: var(--boolando-red);
-    font-weight:bold ;
+    font-weight: bold;
 }
 
 .p-name {
@@ -94,16 +109,25 @@ nav.container.d-flex {
     width: 100%;
 }
 
-.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6 {
     position: absolute;
 }
 
-.img-1b, .img-2b, .img-3b, .img-4b, .img-5b, .img-6b {
-position: absolute;
+.img-1b,
+.img-2b,
+.img-3b,
+.img-4b,
+.img-5b,
+.img-6b {
+    position: absolute;
 }
 
-[class^="card-"]
-{
+[class^="card-"] {
     width: 368px;
     height: 531px;
     position: relative;
@@ -125,11 +149,11 @@ position: absolute;
     opacity: 0;
 }
 
-.img-5:hover{
+.img-5:hover {
     opacity: 0;
 }
 
-.img-6:hover{
+.img-6:hover {
     opacity: 0;
 }
 
@@ -191,4 +215,49 @@ span.off {
     padding: 0.35rem 0.4rem;
     font-size: 12px;
     font-weight: bold;
+}
+
+/* Endregion Main */
+
+/* Region Footer */
+
+#site_footer {
+    background-color: var(--boolando-black);
+    color: var(--boolando-white);
+    margin-top: 3rem;
+}
+
+.container#site_footer {
+    padding-top: 2rem;
+}
+
+.footer {
+    padding: 2rem 0;
+}
+
+.info {
+    padding-top: 0.5rem;
+    font-size: smaller;
+    gap: 0.5rem;
+}
+
+.socials.d-flex {
+    justify-content: right;
+}
+
+.company.d-flex {
+    flex-direction: column;
+}
+
+.col-6.d-flex {
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: smaller;
+}
+
+.socials.d-flex {
+    gap: 0.5rem;
+    font-size: medium;
+    padding-top: 0.5rem;
 }
